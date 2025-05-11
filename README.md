@@ -1,6 +1,4 @@
 # Web Portfolio
-# Personal Portfolio - Manoel Olímpio
-
 Welcome to my personal portfolio! This project showcases my academic background, technical skills, and professional journey in web development and technology.
 
 ## 🚀 About the Project
