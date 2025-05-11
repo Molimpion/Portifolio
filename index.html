@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="icon" href="Image/logo.png" type="image/png">
 </head>
 <body>
 
@@ -45,9 +46,6 @@
                 </a>
             </div>            
     </section>
-
-<!--  About Section -->
-
     <section class="about" id="about">
         <div class="title reveal">
             <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">About me</h2>
@@ -72,9 +70,6 @@
                   </p>                  
         </div>
     </section>
-
-<!-- Academic -->
-
     <section class="Academic" id="Academic">
   <div class="title">
     <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
@@ -83,39 +78,44 @@
   </div>
 
   <div class="content" data-aos="fade-up" data-aos-duration="1000">
-    <div class="edu-block">
-      <h3><i class="fas fa-university"></i> SENAC Pernambuco</h3>
-      <p>
-        <strong>Course:</strong> Systems Analysis and Development<br>
-        <strong>Period:</strong> 2nd Semester (Morning) — 2024.2 to 2027.1<br>
-        <strong>Scholarship:</strong> Embarque Digital Program
-      </p>
-    </div>
 
-    <div class="edu-block">
-      <h3><i class="fas fa-laptop-code"></i> Instituto Aliança / SOFTEX</h3>
-      <p>
-        <strong>Program:</strong> Digital Mastery 4.0 — University Extension (Certified by UECE)<br>
-        <strong>Workload:</strong> 1,335 hours | 2025.1 – 2025.2
-      </p>
-      <p>
-        <strong>Technical Content:</strong> Programming Logic, OOP, Python, Java, Databases (SQL), Agile Methods (SCRUM & Kanban)<br>
-        <strong>Socio-emotional Skills:</strong> Self-Efficacy, Self-Management, Engagement, Kindness, Emotional Resilience, Openness to New
-      </p>
-    </div>
+    <a href="https://www.pe.senac.br/" target="_blank" class="edu-link">
+      <div class="edu-block">
+        <h3><i class="fas fa-university"></i> SENAC Pernambuco</h3>
+        <p>
+          <strong>Course:</strong> Systems Analysis and Development<br>
+          <strong>Period:</strong> 2nd Semester (Morning) — 2024.2 to 2027.1<br>
+          <strong>Scholarship:</strong> Embarque Digital Program
+        </p>
+      </div>
+    </a>
 
-    <div class="edu-block">
-      <h3><i class="fab fa-rocketchat"></i> Rocketseat</h3>
-      <p>
-        <strong>Track:</strong> Full Stack Development Training Program (Ongoing)<br>
-        <strong>Topics:</strong> HTML, CSS, JavaScript, ReactJS, Node.js, Databases, Git & GitHub, full integration practices
-      </p>
-    </div>
+    <a href="https://www.institutoalianca.org.br/" target="_blank" class="edu-link">
+      <div class="edu-block">
+        <h3><i class="fas fa-laptop-code"></i> Instituto Aliança / SOFTEX</h3>
+        <p>
+          <strong>Program:</strong> Digital Mastery 4.0 — University Extension (Certified by UECE)<br>
+          <strong>Workload:</strong> 1,335 hours | 2025.1 – 2025.2
+        </p>
+        <p>
+          <strong>Technical Content:</strong> Programming Logic, OOP, Python, Java, Databases (SQL), Agile Methods (SCRUM & Kanban)<br>
+          <strong>Socio-emotional Skills:</strong> Self-Efficacy, Self-Management, Engagement, Kindness, Emotional Resilience, Openness to New
+        </p>
+      </div>
+    </a>
+
+    <a href="https://www.rocketseat.com.br/" target="_blank" class="edu-link">
+      <div class="edu-block">
+        <h3><i class="fab fa-rocketchat"></i> Rocketseat</h3>
+        <p>
+          <strong>Track:</strong> Full Stack Development Training Program (Ongoing)<br>
+          <strong>Topics:</strong> HTML, CSS, JavaScript, ReactJS, Node.js, Databases, Git & GitHub, full integration practices
+        </p>
+      </div>
+    </a>
+
   </div>
 </section>
-
-
-    <!-- Services Section -->
 <section class="services" id="services">
   <div class="title">
     <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">My Services</h2>
@@ -131,7 +131,7 @@
       </div>
     </div>
     
-    <!-- Card GitHub Modificado com ajuste de altura -->
+
     <a href="https://github.com/Molimpion" target="_blank" style="text-decoration: none; color: inherit;">
       <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" style="display: flex; flex-direction: column; height: 100%;">
         <div class="service-icon">
@@ -155,8 +155,6 @@
     </div>
   </div>
 </section>
-
-<!-- Languages & Tools Section -->
 <section class="Languages & Tools" id="Languages & Tools">
   <div class="title">
     <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Languages & Tools</h2>
@@ -303,14 +301,6 @@
         window.addEventListener("scroll", function(){
     scrollBtn.classList.toggle("active", window.scrollY > 500);
 });
-
-//javascript for scroll back to top on click scroll-to-top button
-
-// document.querySelector(".scrollToTop-btn").addEventListener("click", () => {
-//   document.body.scrollTop = 0;
-//   document.documentElement.scrollTop = 0;
-// });
-
         const menuBtn = document.querySelector(".menu-btn");
         const navigation = document.querySelector(".navigation");
         const navigationItems = document.querySelector(".navigation a");
@@ -320,7 +310,6 @@
             navigation.classList.toggle("active");
         })
 
-        // Navigation Effects
         window.addEventListener("scroll", function(){
             const header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
@@ -332,9 +321,6 @@
                 navigation.classList.remove("active")
             })
         })
-
-
-
     </script>
 </body>
 </html>

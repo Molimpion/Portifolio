@@ -119,7 +119,7 @@ section{
     margin: 0;
 }
 
-/* Anima o bloco inteiro */
+
 @keyframes text-move {
     0%, 15% {
         margin-top: 0;
@@ -169,8 +169,6 @@ section{
     margin-right: 30px;
 }
 
-
-/* About */
 
 .title{
     width: 100%;
@@ -258,7 +256,6 @@ section{
     font-size: 1em;
 }
 
-/* Academic */
 
 .Academic .content {
   display: flex;
@@ -285,8 +282,15 @@ section{
   margin-right: 8px;
   color: white;
 }
-
-/* Services */
+.edu-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.edu-link:hover .edu-block {
+  background-color: #037373; 
+  transition: background-color 0.3s;
+}
 
 .services .content{
     display: flex;
@@ -348,8 +352,6 @@ section{
     color: white;
 }
 
-/* Languages */
-
 .Languages{
     background-color: #012E40;
 }
@@ -389,9 +391,6 @@ section{
 .Languages .content .card .card-img img:hover{
     transform: scale(1.2);
 }
-
-
-/* Contact */
 
 .Contact .content{
     display: flex;
@@ -497,12 +496,6 @@ section{
     cursor: pointer;
     transition: 0.5s ease;
   }
-  
-  .contact-form .input-box .send-btn:hover{
-    background: #235bf6;
-  }
-
-  /* Footer */
   
   .footer{
     background: #012E40;
@@ -626,7 +619,6 @@ section{
         margin-top: 40px;
     }
 
-    /* Skills */
 
     .skills .content{
         flex-direction: column;
