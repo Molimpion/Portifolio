@@ -35,6 +35,10 @@ This portfolio was built to present:
 
 - 📧 Email: [olimpiommelo@gmail.com](mailto:olimpiommelo@gmail.com)
 - 📍 Location: Recife, Pernambuco, Brazil
-- 🌐 LinkedIn: [linkedin.com/in/molimpion](https://linkedin.com/in/molimpion) 
+- 🌐 LinkedIn: [linkedin.com/in/molimpion](https://linkedin.com/in/molimpion)
+
+## View
+You can visualize the resume online here:  
+✔️ [https://molimpion.github.io/Portifolio/](https://molimpion.github.io/Portifolio/)
 
 
